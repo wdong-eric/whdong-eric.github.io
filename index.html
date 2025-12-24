@@ -23,7 +23,7 @@
 				<a href="#header">Home</a>
 				<ul>
 					<li><a href="#banner">Introduction</a></li>
-					<li><a href="#research-highlights">Research Highlights</a></li>
+					<li><a href="#highlights">Research Highlights</a></li>
 				</ul>
 			</li>
 			<li>
@@ -39,11 +39,20 @@
 					</li>
 				</ul>
 			</li>
-			<li><a href="publications.html">Publications</a></li>
+			<!-- Navigate to links for publications on commonly used platforms -->
+			<li>
+				<a href="#">Publications</a>
+				<ul>
+					<li><a href="https://orcid.org/0009-0003-9769-3076">ORCID</a></li>
+					<li><a href="https://scholar.google.com/citations?user=IAw3ElIAAAAJ&hl=en">Google Scholar</a></li>
+					<li><a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0009-0003-9769-3076&sort=date+desc">NASA
+							ADS</a></li>
+				</ul>
+			</li>
 			<li><a href="software.html">Software/Code</a></li>
+			<li><a href="talks.html">Talks</a></li>
 			<li><a href="cv.html">CV</a></li>
 			<!-- <li><a href="teaching.html">Teaching</a></li> -->
-			<li><a href="talks.html">Talks</a></li>
 			<li><a href="contact.html">Contact</a></li>
 
 		</ul>
@@ -58,25 +67,46 @@
 
 			<!-- Inner -->
 			<div class="inner">
-				<header>
-					<h1><a href="index.html" id="logo">Wenhao (Eric) Dong</a></h1>
-					<hr />
-					<!-- <p>Where your talents and the needs of the world cross, there lies your research</p> -->
-					<p>Life is like making dough: too wet, add flour; too dry, add water. You keep adjusting until it
-						works.</p>
+				<header style="flex-wrap: wrap;">
+					<h1 style="font-size:250%;">
+						Life is like making dough, too wet, add flour; too dry, add water.
+					</h1>
+					<p>
+						You keep adjusting until it works.
+					</p>
+					<br />
+					<img src="images/header_object-transp.png" alt="header image" style="width: 300px; height: auto;" />
+					<br />
+					<p>
+						Research is no different.
+					</p>
+					<hr style="border-color: beige;" />
+					<p class="neon-text">
+						<a href="#banner" id="logo">
+							Welcome and explore Wenhao (Eric) Dong here.
+						</a>
+					</p>
+					<!-- todo: do a Chinese version of the website -->
 				</header>
-				<footer>
-					<!-- <a href="#banner" class="button circled scrolly">Start</a> -->
-					<a href="#banner" class="button circled scrolly"></a>
-				</footer>
 			</div>
 
+			<footer style="position: relative; bottom: 20px;">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+					stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+					class="feather feather-chevron-down">
+					<polyline points="6 9 12 15 18 9"></polyline>
+				</svg>
+			</footer>
 		</section>
 
 		<!-- Banner -->
 		<section id="banner">
 			<header>
-				<h2>Hi. You're looking at <strong>Eric</strong>.</h2>
+				<h2>About Me</h2>
+				<!-- <h2>Hi. You're looking at <strong>Eric</strong>.</h2> -->
+				<p>
+					Hello! I'm Wenhao (Eric) Dong (董文灏).
+				</p>
 				<p>
 					A 2nd-year PhD student at University of Melbourne.
 				</p>
@@ -89,33 +119,11 @@
 			</header>
 		</section>
 
-		<!-- Carousel -->
-		<section class="carousel" id="research-highlights">
-			<div class="reel">
-
-				<article>
-					<a href="#" class="image featured"><img src="images/pic01-accreting_ns.png" alt="" /></a>
-					<!-- <a href="#" class="image featured"><img src="images/pic01-accreting_ns-ChatGPT.png" alt="" /></a> -->
-					<header>
-						<h3><a href="#">Gravitational waves from oscillations of neutron star</a></h3>
-					</header>
-					<p>Oscillations that are excited by accretion.</p>
-				</article>
-
-				<article>
-					<a href="#" class="image featured"><img src="images/pic02-2C_ns.jpg" alt="" /></a>
-					<header>
-						<h3><a href="#">Crust-superfluid coupling in neutron star population</a></h3>
-					</header>
-					<p>Coupling timescales and strengths in 105 UTMOST pulsars.</p>
-				</article>
-
-			</div>
-		</section>
-
-		<!-- Main -->
-		<div class="wrapper style2">
-
+		<!-- Selected research highlights -->
+		<section class="wrapper style2" id="highlights">
+			<header>
+				<h2>Selected Research Highlights</h2>
+			</header>
 			<article id="main" class="container special">
 				<a href="images/l26_r_response_to_impact_imageio_FPS11.gif" class="image featured"><img
 						src="images/l26_r_response_to_impact_imageio_FPS11.gif"
@@ -127,171 +135,106 @@
 						Oscillatory response of the neutron star to a single accretion impact
 					</p>
 				</header>
-				<!-- <p>
-							Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa
-							posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
-							sit arcu sociis. Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis aliquam
-							mus lacinia lobortis phasellus suscipit. Fermentum lobortis non tristique ante proin sociis accumsan
-							lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum
-							consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue
-							interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia
-							natoque aenean scelerisque.
-						</p> -->
-				<footer>
+				<!-- <footer>
 					<a href="papers/gwoans.html" class="button">Continue Reading</a>
-				</footer>
+				</footer> -->
 			</article>
 
-		</div>
+		</section>
+		<div class="carousel" id="selections">
+			<div class="reel">
 
-		<!-- Footer -->
-		<div id="footer">
-			<div class="container">
-				<div class="row">
+				<article>
+					<a href="papers/gwoans.html" class="image featured"><img src="images/pic01-accreting_ns.png"
+							alt="" /></a>
+					<header>
+						<h3><a href="papers/gwoans.html">Gravitational waves from oscillations of neutron star</a></h3>
+					</header>
+					<p>Oscillations that are excited by accretion.</p>
+				</article>
 
-					<!-- Tweets -->
-					<section class="col-4 col-12-mobile">
-						<header>
-							<h2 class="icon brands fa-twitter circled"><span class="label">Tweets</span></h2>
-						</header>
-						<ul class="divided">
-							<li>
-								<article class="tweet">
-									Amet nullam fringilla nibh nulla convallis tique ante sociis accumsan.
-									<span class="timestamp">5 minutes ago</span>
-								</article>
-							</li>
-							<li>
-								<article class="tweet">
-									Hendrerit rutrum quisque.
-									<span class="timestamp">30 minutes ago</span>
-								</article>
-							</li>
-							<li>
-								<article class="tweet">
-									Curabitur donec nulla massa laoreet nibh. Lorem praesent montes.
-									<span class="timestamp">3 hours ago</span>
-								</article>
-							</li>
-							<li>
-								<article class="tweet">
-									Lacus natoque cras rhoncus curae dignissim ultricies. Convallis orci aliquet.
-									<span class="timestamp">5 hours ago</span>
-								</article>
-							</li>
-						</ul>
-					</section>
+				<article>
+					<a href="papers/2Cpop.html" class="image featured"><img src="images/pic02-2C_ns.jpg" alt="" /></a>
+					<header>
+						<h3><a href="papers/2Cpop.html">Crust-superfluid coupling in neutron star population</a></h3>
+					</header>
+					<p>Coupling timescales and strengths in 105 UTMOST pulsars.</p>
+				</article>
 
-					<!-- Posts -->
-					<section class="col-4 col-12-mobile">
-						<header>
-							<h2 class="icon solid fa-file circled"><span class="label">Posts</span></h2>
-						</header>
-						<ul class="divided">
-							<li>
-								<article class="post stub">
-									<header>
-										<h3><a href="#">Nisl fermentum integer</a></h3>
-									</header>
-									<span class="timestamp">3 hours ago</span>
-								</article>
-							</li>
-							<li>
-								<article class="post stub">
-									<header>
-										<h3><a href="#">Phasellus portitor lorem</a></h3>
-									</header>
-									<span class="timestamp">6 hours ago</span>
-								</article>
-							</li>
-							<li>
-								<article class="post stub">
-									<header>
-										<h3><a href="#">Magna tempus consequat</a></h3>
-									</header>
-									<span class="timestamp">Yesterday</span>
-								</article>
-							</li>
-							<li>
-								<article class="post stub">
-									<header>
-										<h3><a href="#">Feugiat lorem ipsum</a></h3>
-									</header>
-									<span class="timestamp">2 days ago</span>
-								</article>
-							</li>
-						</ul>
-					</section>
-
-					<!-- Photos -->
-					<section class="col-4 col-12-mobile">
-						<header>
-							<h2 class="icon solid fa-camera circled"><span class="label">Photos</span></h2>
-						</header>
-						<div class="row gtr-25">
-							<div class="col-6">
-								<a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
-							</div>
-							<div class="col-6">
-								<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
-							</div>
-							<div class="col-6">
-								<a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
-							</div>
-							<div class="col-6">
-								<a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
-							</div>
-							<div class="col-6">
-								<a href="#" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
-							</div>
-							<div class="col-6">
-								<a href="#" class="image fit"><img src="images/pic15.jpg" alt="" /></a>
-							</div>
-						</div>
-					</section>
-
-				</div>
-				<hr />
-				<div class="row">
-					<div class="col-12">
-
-						<!-- Contact -->
-						<section class="contact">
-							<header>
-								<h3>Nisl turpis nascetur interdum?</h3>
-							</header>
-							<p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus
-								tempor aliquet.</p>
-							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
-								</li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span
-											class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span
-											class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-pinterest"><span
-											class="label">Pinterest</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a>
-								</li>
-								<li><a href="#" class="icon brands fa-linkedin-in"><span
-											class="label">Linkedin</span></a></li>
-							</ul>
-						</section>
-
-						<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<li>&copy; Untitled. All rights reserved.</li>
-								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-
-					</div>
-
-				</div>
 			</div>
 		</div>
 
+		<!-- Footer -->
+		<footer id="footer">
+			<!-- Contact -->
+			<!-- <section class="contact"> -->
+			<div style="text-align: left;">
+				<p>
+					<h3>Contact me with</h3>
+				</p>
+				<ul class="icons">
+					<li>
+						<a class="icon solid fa-envelope" onclick="copyCode()"><span class="label">Email</span></a>
+						Email
+						<!-- <button onclick="copyCode()">Email</button> -->
+						<span id="copyFeedback" style="color: green; display: none; margin-left: 10px;">Copied!</span>
+						<script>
+							function copyCode() {
+								const textToCopy = "wddong@student.unimelb.edu.au";
+								navigator.clipboard.writeText(textToCopy).then(() => {
+									const feedback = document.getElementById("copyFeedback");
+									feedback.style.display = "inline";
+									setTimeout(() => {
+										feedback.style.display = "none";
+									}, 2000);
+								});
+							}
+						</script>
+					</li>
+				</ul>
+
+				<!-- Other contacts -->
+				<p>
+					<h3>Other places I'm at</h3>
+				</p>
+				<ul class="icons">
+					<li>
+						<a href="https://github.com/wdong-eric?tab=repositories" class="icon brands fa-github"><span
+								class="label">GitHub</span></a>
+						GitHub
+					</li>
+					<br>
+					<li>
+						<a href="https://www.linkedin.com/in/wenhao-dong-056172224/"
+							class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a>
+						Linkedin
+					</li>
+					<!-- <li>
+									<a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+									Twitter
+								</li> -->
+					<!-- <li>
+									<a href="#" class="icon brands fa-facebook-f"><span
+											class="label">Facebook</span></a>
+									Facebook
+								</li> -->
+					<!-- <li>
+									<a href="#" class="icon brands fa-instagram"><span
+											class="label">Instagram</span></a>
+									Instagram
+								</li> -->
+				</ul>
+			</div>
+
+
+			<!-- Copyright -->
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; Untitled. All rights reserved.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
 	</div>
 
 	<!-- Scripts -->

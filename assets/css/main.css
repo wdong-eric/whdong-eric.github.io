@@ -76,6 +76,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		scroll-behavior: smooth;
 	}
 
 	*, *:before, *:after {
@@ -2176,10 +2177,11 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/header-MeerKAT_GC_Galactic_Centre_dual_colour_lowRes.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
+		background-color: #000F46;
 		color: #fff;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
@@ -2279,16 +2281,33 @@ input, select, textarea {
 		opacity: 1;
 	}
 
+	.neon-text {
+		font-size: 48px;
+		color: #fff;
+		text-shadow:
+			0 0 5px #0ff,
+			0 0 10px #0ff,
+			0 0 20px #0ff,
+			0 0 40px #0ff,
+			0 0 80px #0ff;
+		padding: 20px;
+		text-align: center;
+	}
+
+
 /* Nav */
 
 	#nav {
-		position: absolute;
+		position: fixed;
+		background-color: #000F46;
+		color: antiquewhite;
 		top: 0;
 		left: 0;
 		width: 100%;
+		height: 4.5em;
 		text-align: center;
 		padding: 1.5em 0 1.5em 0;
-		z-index: 1;
+		z-index: 1000;
 		overflow: hidden;
 	}
 
@@ -2868,6 +2887,10 @@ input, select, textarea {
 				padding-bottom: 1px;
 			}
 
+			#page-wrapper section{
+				scroll-margin-top: 80px;
+			}
+
 			#navButton {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -2888,7 +2911,7 @@ input, select, textarea {
 
 				#navButton .toggle {
 					text-decoration: none;
-					position: absolute;
+					position: sticky;
 					left: 0;
 					top: 0;
 					width: 100%;
@@ -3136,3 +3159,8 @@ input, select, textarea {
 					}
 
 	}
+
+/* ED edit */
+footer {
+	text-align: center;
+}
